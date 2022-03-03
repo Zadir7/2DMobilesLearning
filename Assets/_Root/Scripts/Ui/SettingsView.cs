@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace _Root.Scripts.Ui
+namespace Ui
 {
     internal class SettingsView : MonoBehaviour
     {

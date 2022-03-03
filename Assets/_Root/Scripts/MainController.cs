@@ -1,4 +1,3 @@
-using _Root.Scripts.Ui;
 using Ui;
 using Game;
 using Profile;
@@ -27,6 +26,7 @@ internal class MainController : BaseController
     {
         _mainMenuController?.Dispose();
         _gameController?.Dispose();
+        _settingsController?.Dispose();
 
         _profilePlayer.CurrentState.UnSubscribeOnChange(OnChangeGameState);
     }

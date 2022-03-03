@@ -2,7 +2,7 @@ using Profile;
 using Tool;
 using UnityEngine;
 
-namespace _Root.Scripts.Ui
+namespace Ui
 {
     internal class SettingsController : BaseController
     {
